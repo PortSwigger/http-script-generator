@@ -1,0 +1,11 @@
+Uuid: 6e0b53d8c801471c9dc614a016d8a20d
+ExtensionType: 1
+Name: Reissue Request Scripter
+ScreenVersion: 6.1.0
+SerialVersion: 6
+MinPlatformVersion: 0
+ProOnly: False
+Author: Philippe Arteau
+ShortDescription: This extension generates scripts to reissue selected requests.
+EntryPoint: scriptgen-burp-plugin/target/scriptgen-burp-plugin-6.1.0.jar
+BuildCommand: mvn package -DskipTests=true -Dmaven.javadoc.skip=true -B

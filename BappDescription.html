@@ -1,0 +1,25 @@
+<p>This extension generates scripts to reissue a selected request. The scripts can be run outside of Burp.
+It can be useful to script attacks such as second order SQL injection, padding oracle, fuzzing encoded value, etc.</p>
+
+<p><b>Features</b></p>
+<ul>
+    <li>Generates scripts for Python, Ruby, Perl, PHP and PowerShell.</li>
+    <li>The scripts will replay GET parameters, POST parameters, cookies, basic authentication credentials and other headers.
+    <li>The scripts can be exported to a file or to the clipboard.</li>
+</ul>
+
+<p><b>Limitations</b></p>
+<ul>
+    <li>The order of the parameters is often not preserved (GET and POST).</li>
+    <li>Multiple parameters with the same name might not be supported by some libraries.</li>
+</ul>
+
+<p><b>Usage</b></p>
+<ul>
+    <li>Go to: Proxy &gt; History.</li>
+    <li>Select the request to generate a script for.</li>
+    <li>Right-click on the request and select the "Generate Script" from the 
+	context menu.</li>
+</ul>
+
+<p>Requires Java version 7.</p>
