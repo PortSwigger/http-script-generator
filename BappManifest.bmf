@@ -1,6 +1,7 @@
 Uuid: 6e0b53d8c801471c9dc614a016d8a20d
 ExtensionType: 1
 Name: Reissue Request Scripter
+RepoName: reissue-request-scripter
 ScreenVersion: 6.1.0
 SerialVersion: 6
 MinPlatformVersion: 0
